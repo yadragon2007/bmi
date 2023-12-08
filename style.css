@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('bmi-section.jpg');
+  background-size: cover;
+  
+  color: #f2f3f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+  color: #f2f3f7;
+}
+
+.container .calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #81818146;
+  width: 500px;
+  height: 500px; 
+  border-radius: 20px;
+  
+}
+.inputsAndBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .inputs{
+  margin: 20px;
+}
+.container .inputs input{
+  background-color: #f2f3f78a;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.container .inputsAndBtn{
+  margin: 20px;
+}
+.container .inputsAndBtn button{
+  background-color: #f2f3f78a;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.container .inputsAndBtn button:hover{
+  background-color: #f2f3f7d8;
+}
+.container .calculator p {
+  font-size: 20px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.container .calculator .card{
+  background-color: #f2f3f78a;
+  padding: 5px 20px;
+  border-radius: 5px;
+}

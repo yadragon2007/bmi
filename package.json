@@ -1,0 +1,29 @@
+{
+  "name": "crad",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Dragon",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.1.0",
+    "@electron-forge/maker-deb": "^7.1.0",
+    "@electron-forge/maker-rpm": "^7.1.0",
+    "@electron-forge/maker-squirrel": "^7.1.0",
+    "@electron-forge/maker-zip": "^7.1.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.1.0",
+    "@electron-forge/publisher-github": "^7.1.0",
+    "electron": "^27.1.0"
+  },
+  "dependencies": {
+    "@electron-forge/maker-dmg": "^7.1.0",
+    "@electron-forge/maker-wix": "^7.1.0",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
